@@ -11,7 +11,7 @@ Since the dataset was highly imbalanced, we used random oversampling to balance 
 
 We created base models for the 4 cases that we are considering: The adult dataset, the Adolescents dataset, the Toddler dataset, and the combined dataset. The architecture for these base models was set as:
 
-One input layer, one input layer with ReLU activation, a hidden layer with ReLU activation, and an output layer with a sigmoid activation function. Along with this, we used the Adam optimizer and binary cross entropy along with accuracy as the metric for evaluation. 
+One input layer with ReLU activation, a hidden layer with ReLU activation, and an output layer with a sigmoid activation function. Along with this, we used the Adam optimizer and binary cross entropy along with accuracy as the metric for evaluation. 
 
 For the Adult dataset, we have used The first dense layer has 512 neurons and uses the ReLU activation function, It also applies L2 regularization with a strength of 0.03 and 5 hidden layers with ReLU activation functions and dropout layers to reduce overfitting. The final dense layer has a single neuron with a sigmoid activation function.
 
